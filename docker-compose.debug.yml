@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  animeshop:
+    image: animeshop
+    build:
+      context: .
+      dockerfile: ./Dockerfile
